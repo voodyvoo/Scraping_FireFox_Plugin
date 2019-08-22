@@ -1,7 +1,0 @@
-{
-  "name": "app",
-  "description": "Praktikums-Ersatz-Projekt",
-  "path": "C:\\praktWebExt\\app.bat",
-  "type": "stdio",
-  "allowed_extensions": [ "app@example.org" ]
-}
