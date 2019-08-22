@@ -1,7 +1,7 @@
 # Scraping_FireFox_Plugin
 A little FireFox Plugin with native Python Component to scrape visited Websites.
 
-Dieses Projekt wurde im Rahmen des Informatik Studiums erstellt. Eine ausführliche Dokumentation ist in der Datei ProjektDokumentation.pdf zu finden.
+Dieses Projekt wurde im Rahmen des Informatik-Studiums erstellt. Eine ausführliche Dokumentation ist in der Datei ProjektDokumentation.pdf zu finden.
 
 
 Vorraussetzungen:
