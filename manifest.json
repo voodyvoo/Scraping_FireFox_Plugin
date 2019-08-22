@@ -1,0 +1,37 @@
+{
+
+  "description": "Saving Stuff example",
+  "manifest_version": 2,
+  "name": "PraktikumExtension",
+  "version": "3.0",
+  "icons": {
+    "48": "233299_hypnotoad_256x256.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "app@example.org",
+      "strict_min_version": "50.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "/233299_hypnotoad_256x256.png"
+  },
+
+  "permissions": ["nativeMessaging",
+    "notifications",
+    "activeTab",
+  "tabs"]
+  }
