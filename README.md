@@ -19,7 +19,7 @@ wird das eigentliche Add-on aus der Datei praktikumextension-3.0-an+fx-windows.x
 
 Hinweis:
 Es ist möglich die Dateien der nativen Komponente in einem anderen Ordner zu speichern. In dem Fall funktioniert die install.bat Datei 
-nict mehr. Statt dessen muss dann per Hand ein standard Registry Key unter angelegt werden:
+nicht mehr. Statt dessen muss dann per Hand ein standard Registry Key angelegt werden unter:
 REG ADD HKEY_LOCAL_MACHINE\"alternativer eigener Dateipfad"\app /d C:\praktWebExt\app.json
 
 Sobald die Installation abgeschlossen ist, legt das Programm im Ordner C:\praktWebExt für jede Firefox-Sitzung
